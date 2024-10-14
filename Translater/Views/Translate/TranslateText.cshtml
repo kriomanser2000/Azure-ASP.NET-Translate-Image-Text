@@ -1,0 +1,15 @@
+﻿@{
+}
+
+<form asp-action="TranslateText" method="post">
+    <input type="text" name="inputText" placeholder="Введіть текст" />
+    <select name="fromLanguage">
+        <option value="en">Англійська</option>
+        <option value="uk">Українська</option>
+    </select>
+    <select name="toLanguage">
+        <option value="uk">Українська</option>
+        <option value="en">Англійська</option>
+    </select>
+    <button type="submit">Перекласти</button>
+</form>

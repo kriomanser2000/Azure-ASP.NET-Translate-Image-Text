@@ -1,0 +1,15 @@
+﻿@{
+}
+
+<form asp-action="TranslateFromImage" method="post" enctype="multipart/form-data">
+    <input type="file" name="imageFile" />
+    <select name="fromLanguage">
+        <option value="en">Англійська</option>
+        <option value="uk">Українська</option>
+    </select>
+    <select name="toLanguage">
+        <option value="uk">Українська</option>
+        <option value="en">Англійська</option>
+    </select>
+    <button type="submit">Перекласти зображення</button>
+</form>
